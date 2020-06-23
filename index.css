@@ -64,7 +64,8 @@ nav {
    text-align: center;
    font-size: 4em;
    color: rgb(250, 252, 253);
-   border: solid 1px white;
+   border: outset 5px white;
+   border-radius: 8px;
  }
 #title>span{
   font-size: 0.5em;
@@ -161,11 +162,11 @@ section{
     align-items: stretch;
     align-content: center;
     grid-auto-flow: column;
-    padding-left: 2%;
+    padding-left: 1%;
   }
 
   .showcase {
-    width:  250px;
+    width:  300px;
     height: 300px;
     padding: 5px;
     align-items: center;
