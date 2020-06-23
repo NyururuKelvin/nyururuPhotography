@@ -21,7 +21,7 @@ nav {
  display: block;
  background-color: rgba(253, 253, 253, 0.733);
  border-radius: 15px;
- color: rgba(253, 253, 253, 0.733);
+ color: rgba(5, 5, 5, 0.733);
  }
 
  nav>ul>li>a:hover {
@@ -29,7 +29,7 @@ nav {
  background: rgb(0, 0, 0);
  color: whitesmoke;
  }
- 
+
  body{
    background-color: rgb(90, 243, 248);
  }
