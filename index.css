@@ -43,16 +43,16 @@ nav {
  }
  @keyframes animate{
   0%,100%{
-    background-image: url('http://www.steinnewyork.com/wp-content/uploads/2016/06/Lafayette-St-SoHo.png');
+    background-image: url(./images/wd3.jpg);
   }
   25%{
-    background-image: url('http://www.steinnewyork.com/wp-content/uploads/2016/08/Warren-St-TriBeCa.png');
+    background-image: url(./images/macro3.jpg);
   }
 50%{
-    background-image: url('http://www.steinnewyork.com/wp-content/uploads/2016/01/slide-2.jpg');
+    background-image: url(./images/bb.jpg);
   }
 75%{
-    background-image: url('http://www.steinnewyork.com/wp-content/uploads/2016/08/Warren-St-TriBeCa.png');
+    background-image: url(./images/pt.jpg);
   }
 }
 
