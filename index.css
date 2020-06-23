@@ -171,3 +171,7 @@ section{
     padding: 5px;
     align-items: center;
   }
+
+  form{
+      text-align: center;
+  }
