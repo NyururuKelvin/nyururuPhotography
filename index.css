@@ -66,6 +66,7 @@ nav {
    color: rgb(250, 252, 253);
    border: outset 5px white;
    border-radius: 8px;
+   font-family: Sacramento;
  }
 #title>span{
   font-size: 0.5em;
@@ -108,12 +109,12 @@ main {
 
   .description {
     font-family: Work Sans;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 1.29;
     letter-spacing: 0.1px;
     text-align: left;
-    color: #4a4a4a;
+    color: #070707;
     padding: 10px 0px 10px 10px;
     border-top: 1px solid #4a4a4a;
   }
@@ -133,17 +134,24 @@ main {
 .intro{
     text-align: center;
     font-size: 2em;
+    font-family: "Sacramento";
+    font-size: 58px;
+}
+.intro>span{
+  font-family: Sacramento;
+  color: #f10e47;
+  font-size: 1em;
 }
 
 .gallery{
     position: absolute;
     left: 50%;
-    top: 140%;
+    top: 151%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 2em;
-    color: rgb(247, 56, 161);
-    border: solid 1px white;
+    font-size: 3em;
+    color: #f10e47;
+    font-family: Sacramento;
   }
 }
 
@@ -194,7 +202,10 @@ section{
     text-align: center;
   }
 
-  h3{
+  .interact{
       text-align: center;
-      font-family: "Book Antiqua";
+      font-family: "Sacramento";
+      font-size: 50px;
+      color: #f10e47;
+      margin-bottom: 0px;
   }
