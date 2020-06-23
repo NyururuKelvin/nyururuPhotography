@@ -33,7 +33,7 @@ nav {
  body{
    background-color: rgb(90, 243, 248);
  }
- #slide{
+ #home{
    top: 0;
    left: 0;
    width: 100%;
@@ -129,10 +129,6 @@ main {
     min-width: 500px;
     margin: auto;
   }
-  
-  footer {
-    margin-top: 44px;
-  }
 
 .intro{
     text-align: center;
@@ -165,19 +161,36 @@ section{
     padding-left: 1%;
   }
 
+  .slideshow{
+      margin-left: 3%;
+      margin-right: 3%;
+  }
+
   .showcase {
     width:  300px;
     height: 300px;
     padding: 5px;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
 
   form{
+      padding: 10px;
       text-align: center;
+      background-image: url(./images/macro3.jpg);
   }
   .icon{
       width: 50px;
       height: 50px;
-      padding: 5px;
-      border-radius: 10px;
+      padding: 15px;
+      border-radius: 50%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  h3{
+      text-align: center;
   }
