@@ -37,7 +37,7 @@ nav {
    top: 0;
    left: 0;
    width: 100%;
-   height: 100vh;
+   height: 130vh;
    animation: animate 20s ease-in-out infinite;
    background-size: cover;
  }
@@ -58,8 +58,8 @@ nav {
 
  #title{
    position: absolute;
-   left: 50%;
-   top: 50%;
+   left: 40%;
+   top: 70%;
    transform: translate(-50%, -50%);
    text-align: center;
    font-size: 4em;
@@ -72,7 +72,7 @@ nav {
 
 main {
     display: grid;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: 400px 400px 400px;
     grid-template-rows: repeat(3, 520px);
     grid-gap: 20px;
     margin-top: 44px;
@@ -138,5 +138,13 @@ main {
 }
 
 .gallery{
-
+    position: absolute;
+    left: 50%;
+    top: 140%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2em;
+    color: rgb(247, 56, 161);
+    border: solid 1px white;
+  }
 }
