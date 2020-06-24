@@ -31,7 +31,7 @@ nav {
  }
 
  body{
-   background-color: rgb(90, 243, 248);
+   background-color: rgba(97, 252, 244, 0.288);
  }
  #home{
    top: 0;
@@ -140,10 +140,10 @@ main {
 .gallery{
     position: absolute;
     left: 50%;
-    top: 151%;
+    top: 150%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 3em;
+    font-size: 50px;
     color: #f10e47;
     font-family: Sacramento;
 }
@@ -195,7 +195,7 @@ section{
   .icon{
       width: 50px;
       height: 50px;
-      padding: 15px;
+      padding: 5px;
       border-radius: 50%;
       background-color: #f10e47;
       background-size: auto;
@@ -213,5 +213,16 @@ section{
     font-size: 30px;
     text-align: center;
   }
+  #about>span{
+    color: #f10e47;
+  }
 
+  .general {
+    text-align: center;
+    font-family: Sacramento;
+    font-size: 80px;
+    color: #f10e47;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
   
