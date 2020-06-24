@@ -147,33 +147,17 @@ main {
     color: #f10e47;
     font-family: Sacramento;
 }
-}
-
-section{
-    display: grid;
-    grid-template-columns: 250px 250px;
-    grid-template-rows: repeat(3, 420px);
-    grid-gap: 20px;
-    grid-auto-rows: 500px;
-    justify-items: center;
-    justify-content: center;
-    align-items: stretch;
-    align-content: center;
-    grid-auto-flow: column;
-    padding-left: 1%;
-  }
 
   .slideshow{
-      margin-left: 3%;
-      margin-right: 3%;
+    margin: 5px;
+    float: left
+    width 250px;
   }
+  .slideshow img{
+    width: 310px;
+    height: 350px;
+    padding: 8ypx;
 
-  .showcase {
-    width:  300px;
-    height: 300px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .interact{
