@@ -198,12 +198,20 @@ section{
       padding: 15px;
       border-radius: 50%;
       background-color: #f10e47;
+      background-size: auto;
   }
 
   footer {
     text-align: center;
     font-family: Sacramento;
     font-size: 35px;
+    color: #f10e47;
+  }
+
+  #about{
+    font-family: Sacramento;
+    font-size: 30px;
+    text-align: center;
   }
 
   
